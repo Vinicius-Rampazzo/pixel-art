@@ -1,5 +1,6 @@
 // aqui algumas variaveis que criei para
 // poder fazer o quadrado com 5 de largura e 5 da altura.
+// adicionando readme.
 
 const divPai = document.querySelector('#pixel-board');
 const divFilho1 = document.createElement('div');
