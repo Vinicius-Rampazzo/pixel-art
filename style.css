@@ -4,10 +4,10 @@
 }
 
 body {
-  background-image: url(http://www.tecnopuntacuba.com/wp-content/uploads/2018/09/cielo.jpg);
+  background-image: url(./img/imagem-mario-fundo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
 }
 
 main {
@@ -18,17 +18,20 @@ main {
 }
 
 header {
-  background-image: url(https://media-exp1.licdn.com/dms/image/C4D1BAQFZkhalm0nPnA/company-background_10000/0/1585902525920?e=1660334400&v=beta&t=yqXYucS-YABO4M15w5phWrEQmVqAeAXGI5MgrK2ICpw);
-  background-size: contain;
+  background-image: url('https://tiagogoncalves4tic1n.files.wordpress.com/2012/01/mario-bros-wallpaper.jpg');
+  background-size: cover;
+  border: solid 5px rgb(0, 0, 0);
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 10px;
   height: 100px;
 }
 
 header h1 {
-  color: red;
-  font-family: 'Courier New', Courier, monospace;
+  color: rgb(255, 255, 255);
+  font-family: 'Pixel';
+  font-weight: normal;
   font-size: 50px;
   font-variant: small-caps;
   font-style: italic;
@@ -37,8 +40,10 @@ header h1 {
 
 #subTitle {
   color: rgb(0, 0, 0);
-  font-family: sans-serif;
+  font-family: 'Pixel';
   font-style: italic;
+  font-size: 30px;
+  margin: 50px;
 }
 
 
@@ -80,7 +85,7 @@ header h1 {
   border: none;
   background: none;
   cursor: pointer;
-  font-style: italic;
+  font-family: 'Pixel';
   font-weight: 900;
   text-transform: uppercase;
   font-size: 20px;  
@@ -101,13 +106,20 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin: 20px; */
+}
+
+footer section {
+  font-size: 20px;
+  font-family: monospace;
+  margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .links {
   color: black;
   text-decoration: black;
-  font-family: sans-serif;
+  font-family: 'Pixel';
 }
 
 .footer-class {
@@ -126,4 +138,9 @@ footer div:hover {
   font-size: 21px; 
   box-shadow: black 5px 5px 5px;
   transition: 0.5s;
+}
+
+@font-face {
+  font-family: 'Pixel';
+  src: url('04B_30__.TTF') format('truetype');
 }
